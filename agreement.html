@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Agreement - Messaging App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #4CAF50, #81C784);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .agreement {
+            max-width: 800px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .reference {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .reference a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .reference a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="agreement">
+        <h1>Messaging App User Agreement</h1>
+        <p>Last Updated: 2-12-2024</p>
+        <p>
+            Welcome to the Messaging App! By using our services, you agree to the following terms:
+        </p>
+        <ul>
+            <li>You will not use the app to send spam or illegal content.</li>
+            <li>All messages sent via this app are encrypted, but users are responsible for their own security.</li>
+            <li>We may update this agreement at any time. Continued use of the app signifies acceptance of changes.</li>
+        </ul>
+        <p>For more information, contact us at support@messagingapp.com.</p>
+        <button onclick="acceptAgreement()">I Agree</button>
+
+    </div>
+
+    <script>
+        function acceptAgreement() {
+            // Redirect to the main app page
+            window.location.href = "main.html"; // Change this to your main page URL
+        }
+    </script>
+</body>
+</html>
